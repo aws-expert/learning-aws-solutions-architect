@@ -9,3 +9,9 @@ O AWS Certified Solutions Architect - Associate apresenta conhecimento e habilid
 - Custo: USD 150 - Acesse Preço do exame para obter mais informações sobre o custo.
 - Formato: 65 questões, múltipla escolha ou múltiplas respostas.
 - Método de aplicação: centro de testes Pearson VUE ou exame supervisionado on-line.
+
+## Content Description
+- Domínio 1: Design de arquiteturas seguras 30%
+- Domínio 2: Design de arquiteturas resilientes 26%
+- Domínio 3: Design de arquiteturas de alta performance 24%
+- Domínio 4: Design de arquiteturas econômicas 20%
