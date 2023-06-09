@@ -7,6 +7,6 @@
 - groups onlye contain users, not other groups.
 - users don't have to belong to a group, and user can belong to multiple groups.
 
-!(https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/aws1.png)
+![aws-image](https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/aws1.png)
 
 
