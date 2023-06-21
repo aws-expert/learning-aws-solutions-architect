@@ -21,3 +21,11 @@
 - this can be controlled by the AWS console/AWS CLI
 - use case: preserve the root volume when instance is terminated.
 
+
+# EBS Snapshots
+- make a backup (snapshot) of your EBS volume at point in time
+- not necessary to detach volumeto to do a snapshot but recommended.
+- can copy snapshots across AZ or region.
+
+![aws-image](https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/aws11.png)
+
