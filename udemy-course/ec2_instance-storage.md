@@ -53,6 +53,53 @@
 - start an EC2 instance and customize it
 - stop the instance (for data integrity)
 - build an AMI - this will also create EBS snapshots.
+- launch instances from other AMI's
+
+# EC2 Instance Store
+- EBS volumes are network drives with good but limited performance
+- if you need a high-performance hardware disk, use EC2 iunstance store.
+  - better I/O performance
+  - EC2 instance store lose their storage if they are stopped
+  - good for byffer, cache, scratch, temporary content
+  - risk of data loss if hardware fails.
+  - backups and replication are your responsability
+
+## EBS Volume Types
+- EBS volumes come in 6 types.
+  - gp2/gp3 (SSD): general purpose SSD volume that balances price and performance
+  - io I/io 2 (SSD): highest performance SSD volume for mission-critical low-latency
+  - st I (HDD): low cost HDD volume designed for frequently accessed.
+  - sc I (HDD): lowest cost HDD volume designed for less frequently accessed workloads.
+- EBS volumes are characterized in size, throughput, IOPS (I/O Ops Per Sec)
+- when in doubt always consult the AWS documentation
+- only gp2/gp3 and io 1/io2 cvan bse used as boot volumes.
+
+## EBS Volume Types Use-cases
+### General Purpose SSD
+- cost effective storage, low-latency
+- system boot volumes, vitual desktops, development and test environments.
+- 1 GIB - 16 TiB
+- gp3
+  - baseline of 3000 IOPS
+  - can increase IOPS up to 16000.
+- gp2:
+  - small gp2 volumes can burst IOPS
+  - size of the volume and IOPS are linked
+  - 3 IOPS per GB means at 5334 GB
+
+### Provisioned IOPS (PIOPS) SSD
+- critical business applications with sustained IOPS performance
+- or applications that need more than 16000 IOPS
+- supports EBS multi-attach.
+
+
+
+
+
+
+
+
+
 
 
 
