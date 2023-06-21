@@ -14,3 +14,10 @@
   - an EBS volume is us-east-1 a cannot be attached to us-east-1b
   - to move a volume across you first need to snapshot it.
 
+# EBS - delete on termination attribute
+- controls the EBS behaviour when an EC2 instance terminates.
+  - by default the root EBS volume is deleted (attributed enabled)
+  - by default any other attached EBS volume is not deleted
+- this can be controlled by the AWS console/AWS CLI
+- use case: preserve the root volume when instance is terminated.
+
