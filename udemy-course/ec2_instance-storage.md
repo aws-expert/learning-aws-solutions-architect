@@ -27,5 +27,36 @@
 - not necessary to detach volumeto to do a snapshot but recommended.
 - can copy snapshots across AZ or region.
 
-![aws-image](https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/aws11.png)
+#![aws-image](https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/aws11.png)
+
+## EBS Snapshots Features
+- EBS snapshot archive
+  - move a snapshot to an archive tier that is 75% cheaper.
+- recycle Bin for EBS snapshots
+- fast snapshots restore (FSR)
+  - force full initialization of snapshot to have no latency on the first use
+
+
+# AMI Overview
+- AMI = amazon machine image
+- AMI are a customization of an EC2 instance
+  - you add your own software, configuration, operating system
+  - faster boot, configuration time because all your software is pre-package.
+- AMI are built for a specific region (and can be copied across regions)
+- you can launch EC2 instances from:
+  - a public ami: AWS provided
+  - your own AMI: you make and maintain them yourself
+  - an AWS markplace AMI: an AMI someone else made.
+  
+
+## AMI Process (from an EC2 instance)
+- start an EC2 instance and customize it
+- stop the instance (for data integrity)
+- build an AMI - this will also create EBS snapshots.
+
+
+
+
+
+
 
