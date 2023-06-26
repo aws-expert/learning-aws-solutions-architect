@@ -16,6 +16,5 @@ O escalonamento vertical, também conhecido como “escalonamento para cima e pa
 ## Horizontal Scalability
 - horizontal scalability means increasing the number of instances/systems for your application.
 
-
-![text](image1.png)
+![text](https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/image1.png)
 
