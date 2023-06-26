@@ -15,7 +15,6 @@ O escalonamento vertical, também conhecido como “escalonamento para cima e pa
 
 ## Horizontal Scalability
 - horizontal scalability means increasing the number of instances/systems for your application.
-
 ![text](https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/image1.png)
 
 - horizontal scaling implies distributed systems.
@@ -29,6 +28,20 @@ O escalonamento vertical, também conhecido como “escalonamento para cima e pa
 - the high availability can be passive (for RDS multi AZ for example)
 - the high availability can be active for horizontal scaling.
 
+## High Availability and Scalability for EC2
+- vertical scaling: increase instance size (= scale up/down)
+  - from: t2.nano
+  - to: u-l2tbl.metal
+- horizontal scaling: increase number of instances (=scale out/in)
+  - Auto Scaling Group
+  - Load Balancer
+- high availability: run instances for the same application across multi AZ
+  - Auto Scaling Group multi AZ
+  - Load Balancer multi AZ.
 
+
+## What is load balancing?
+- load balances are servers that forward traffic to multiple servers (e.g., EC2 instances) downtream.
+![text](https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/image2.png)
 
 
