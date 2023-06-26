@@ -44,4 +44,15 @@ O escalonamento vertical, também conhecido como “escalonamento para cima e pa
 - load balances are servers that forward traffic to multiple servers (e.g., EC2 instances) downtream.
 ![text](https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/image2.png)
 
+## Why use a load balancer?
+- spread load across multiple downtream instances
+- expose a single point of access (DNS) to your application
+- semlessly handle failures of downstream instances
+- do regular health checks to your intances
+- provide SSL termination (HTTPS) for your websites.
+- enforce stickness with cookies.
+- high availability across zones
+- separate public traffic from private traffic.
+- 
+
 
