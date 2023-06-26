@@ -21,7 +21,6 @@
 - this can be controlled by the AWS console/AWS CLI
 - use case: preserve the root volume when instance is terminated.
 
-
 # EBS Snapshots
 - make a backup (snapshot) of your EBS volume at point in time
 - not necessary to detach volumeto to do a snapshot but recommended.
@@ -91,6 +90,28 @@
 - critical business applications with sustained IOPS performance
 - or applications that need more than 16000 IOPS
 - supports EBS multi-attach.
+
+
+### Hard Disk Drives (HDD)
+- cannot be a boot volume
+- 125GiB to 16TiB
+- throughput optimized HDD
+- cold HDD
+  - for data that is infrequently accessed.
+  - scenarios where lowest cost id important
+  - max throughput 250MiB/s - max IOPS 250.
+
+## EBS Multi-Attach - io/io2 family
+- ttach the same EBS volume to multiple EC2 instances in the same AZ.
+- each instance has full read and write permissions to the high performance volume
+- use case  
+- up to 16 EC2 instances at a time
+- must use a file system thats cluster-aware.
+
+### EBS Encryption
+- when you create an encrypted EBS volume you get the following.
+  - 
+
 
 
 
