@@ -18,3 +18,17 @@ O escalonamento vertical, também conhecido como “escalonamento para cima e pa
 
 ![text](https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/image1.png)
 
+- horizontal scaling implies distributed systems.
+- this is very common for web applications/modern aplications
+- it's easy to horizontally scale thanks the clod offering such as Amazon EC2.
+
+## High Availability
+- high availability ussialy goes hand in hand with the horizontal scaling.
+- high availability means running your application/system in at leasr 2 data centers (== availability zones).
+- the goal of high availability is to survive a data center loss
+- the high availability can be passive (for RDS multi AZ for example)
+- the high availability can be active for horizontal scaling.
+
+
+
+
