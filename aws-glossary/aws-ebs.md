@@ -12,7 +12,7 @@
     - cargas de trabalho de grandes bancos de dados
     - tamanho do volume: 4GIB a 16TB
   - **HDD (otimizado para taxas de transferencias)** - 
-    - cargas de trabalho de streaming que exisgem taxa de transferência rápida e consistente.
+    - cargas de trabalho de streaming que exigem taxa de transferência rápida e consistente.
     - big data
     - data warehouse
     - processamento de logs
