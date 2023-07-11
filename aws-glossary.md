@@ -7,9 +7,21 @@ The glossary covers a wide range of AWS offerings, including computing services,
 
 - [AWS Glossary](#aws-glossary)
   - [Table of Contents](#table-of-contents)
+  - [Interações de Aplicativos](#interações-de-aplicativos)
+      - [SQS (Simple Queue Service)](#sqs-simple-queue-service)
   - [Contributing](#contributing)
   - [License](#license)
   - [Contact](#contact)
+  
+
+## Interações de Aplicativos
+#### SQS (Simple Queue Service)
+- serviço simples de fila
+- mensagens que são armazenadas, conectado em bancos de dados e instâncias EC2.
+- armazena em questão de fila, enfileira as requisições que chegam no servidor.
+- fila standart (armazena tudo em fila e envia as requisições sem ordens) / garantia de entrega/entrega duplicada.
+- 
+
 
 ## Contributing
 Provide guidelines for contributing to your project, including any coding standards or guidelines, and steps to submit pull requests. Also, let users know how they can contact you if they have questions or want to contribute.
