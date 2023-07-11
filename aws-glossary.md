@@ -8,14 +8,14 @@ The glossary covers a wide range of AWS offerings, including computing services,
 - [AWS Glossary](#aws-glossary)
   - [Table of Contents](#table-of-contents)
   - [Interações de Aplicativos](#interações-de-aplicativos)
-      - [SQS (Simple Queue Service)](#sqs-simple-queue-service)
+      - [**SQS (Simple Queue Service)**](#sqs-simple-queue-service)
   - [Contributing](#contributing)
   - [License](#license)
   - [Contact](#contact)
   
 
 ## Interações de Aplicativos
-#### SQS (Simple Queue Service)
+#### **SQS (Simple Queue Service)**
 - serviço simples de fila
 - mensagens que são armazenadas, conectado em bancos de dados e instâncias EC2.
 - armazena em questão de fila, enfileira as requisições que chegam no servidor.
