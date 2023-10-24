@@ -1,5 +1,4 @@
 # What's an EBS volume??
-
 - ane EBS volume (slastic block store) volume is a network drive you can attach to your instances while they run.
 - it allows your instances to persist data, even after their termination.
 - they can only be mounted to one instance at a time
