@@ -31,7 +31,7 @@
 
 ## EC2 Instance types: example
 
-![my-setup](https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/Captura de tela de 2023-10-24 14-02-52.png)
+![my-setup](https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/ec2-image01.png)
 
 ## EC2 Instance Types - Overview
 - you can use different types of ec2 instances that are optimized for different use cases.
