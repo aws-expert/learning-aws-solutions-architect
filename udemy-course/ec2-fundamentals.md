@@ -29,6 +29,10 @@
   - installing software
   - downloading common files from the internet.
 
+## EC2 Instance types: example
+
+<img src="https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/Captura de tela de 2023-10-24 14-02-52.png" width="200" height="200"/>
+
 ## EC2 Instance Types - Overview
 - you can use different types of ec2 instances that are optimized for different use cases.
 - AWS name convention:
