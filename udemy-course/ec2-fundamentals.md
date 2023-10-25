@@ -41,3 +41,17 @@
 - 5: generation
 - 2xlarge: size within the instance class
 
+## EC2 Instance Types - Genertal Purpose
+- great for a diversity of workloads such as web servers or code repositories.
+- balance between:
+  - compute
+  - memory
+  - networking
+- t2.micro is a general purpose EC2 instance.
+
+
+
+
+
+
+
