@@ -29,7 +29,7 @@
   - installing software
   - downloading common files from the internet.
 
-## EC2 Instance types: example
+## EC2 Instance Types Basics.
 
 ![my-setup](https://github.com/aws-expert/learning-aws-solutions-architect/blob/main/images/ec2-image01.png)
 
@@ -48,6 +48,25 @@
   - memory
   - networking
 - t2.micro is a general purpose EC2 instance.
+
+##  EC2 Instance Types - Compute Optimized
+- great for compute intensive tasks that require high performance processors.
+  - batch processing worklods
+  - media transcoding
+  - high performance web servers
+  - high performance computing (HPC)
+  - scientific modeling & machine learning
+  - dedicated gaming servers.
+
+ ## EC2 Instance Types - Memory Optimized
+ - fast performance for workloads that process large data sets in memory
+ - use cases:
+  -  high performance, relation, no relational databases
+  - distributed web scale cache stores
+  - in-memory databases optimized for BI (business intelligence)
+  - applications performing real-time processing of big unstructured data
+
+##  EC2 Instance Types - Storage Optimized
 
 
 
