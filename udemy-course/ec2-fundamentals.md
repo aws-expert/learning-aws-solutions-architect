@@ -67,6 +67,15 @@
   - applications performing real-time processing of big unstructured data
 
 ##  EC2 Instance Types - Storage Optimized
+- great for storage-intensive tasks that require high, sequential read and write access to large dara sets on local storage.
+- uses cases:
+  - high frequency online transaction processing (OLTP) systems.
+  - relational & NoSQL databases
+  - cache for in-memory databases (redis)
+  - data warehouse applications
+  - distributed filesystems
+
+
 
 
 
