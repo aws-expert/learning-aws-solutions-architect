@@ -75,7 +75,10 @@
   - data warehouse applications
   - distributed filesystems
 
-
+# Introduction to Security Groups
+- are the fundamental of network security in aws.
+- they control how trafficis allowed into or out of our EC2 instances.
+- 
 
 
 
