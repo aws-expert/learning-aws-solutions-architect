@@ -81,10 +81,10 @@
 - security groups only contain rules
 - security groups rules can reference by IP or by security group.
 
-![Alt text](image-1.png)
+![teste](image-1.png)
 
 ## Deeper Dive
-- 
+- teste
 
 
 
