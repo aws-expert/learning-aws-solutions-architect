@@ -84,7 +84,16 @@
 ![teste](image-1.png)
 
 ## Deeper Dive
-- teste
+- security groups are acting as a firewall on EC2 instances.
+- they regulate:
+  - access to ports
+  - authorised IP ranges - IPv$ and IPv6
+  - control of inbound network (from other to the instances)
+  - control of outbound network (from the instance to other)
+
+![Alt text](image-2.png)
+
+
 
 
 
