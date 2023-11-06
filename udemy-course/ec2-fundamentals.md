@@ -93,6 +93,22 @@
 
 ![Alt text](image-2.png)
 
+## Good to know
+- can be attached to multiple instances
+- locked down to a region/VPC combination
+- does live outside of EC2
+- it's good to maintain a one separate security group for SSH access.
+- if your application it not accessible (time out), then a security group issue.
+- all inbound traffic in blocked by default.
+- all outbound traffic is authorised by default.
+
+## Classic ports to know
+- 22 = SSH (secure shell)
+- 21 = FTP (file transfer protocol)
+- 22 = SFTP (secure file transfer protocol)
+- 80 = HTTP (access unsecured websites)
+- 443 = HTTPS (access secured websites)
+- 3389 = RDP (remote desktop protocol).
 
 
 
