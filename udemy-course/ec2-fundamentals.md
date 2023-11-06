@@ -111,6 +111,19 @@
 - 3389 = RDP (remote desktop protocol).
 
 
+## EC2 Instances Purchasing Options
+- on-demand instances - short workload, pricing, pay by second.
+- reserved (1 & 3 years)
+  - long workloads
+  - convertible reserved instances - long workloads
+- saving plans - (1 & 3 years) - commin
+
+
+
+
+
+
+
 
 
 
