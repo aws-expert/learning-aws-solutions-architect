@@ -121,6 +121,13 @@
 - **dedicated instances** - no other customers will share your hardware.
 - **capacity reservations** - reserve capacity in a specific AZ for any duration.
 
+## EC2 On Demand
+- pay for what you use
+  - linux os windows (blling per second, after the first time minute)
+  - all other operating systems
+- has the highest cost but no upfront payment
+- no long-term commitment 
+- recomended for `short-term` and `un-interrupted workloads`, where you can't predict how the application will behave.
 
 
 
