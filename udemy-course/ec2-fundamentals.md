@@ -129,7 +129,7 @@
 - no long-term commitment 
 - recomended for `short-term` and `un-interrupted workloads`, where you can't predict how the application will behave.
 
-## EC2 Reserved Instances
+## EC2 Reserved Instances (standard)
 - up to 72% discount compared to On-demand.
 - you reserve a specific instance attributes (instance type, region, tenancy, OS)
 - `reservation period - 1 year` (+discount) or 3 years (+++ discount).
@@ -141,6 +141,7 @@
 ### Convertible Reserved Intance
 - can change the EC2 instance type
 - Up to 66% discount.
+- can change de OS systems.
 
 ## EC2 Savings Plans
 - get a discount based on a long term usage (up to 72%)
@@ -149,6 +150,38 @@
   - instance size
   - OS (windows & linux)
   - tenancy (host, dedicated, default)
+
+## EC2 Spot Instances
+- discount of 90% compared on-demand.
+- instances that you can lose at any time if your max price is less than current spot price.
+- the MOST cost efficient instances AWS
+
+### Useful for workloads that are resilient to failure
+- batch jobs
+- data analysis
+- image processing
+- any distributed workloads
+- workloads with start and end time.
+
+## EC2 Dedicated Hosts
+- physical server EC2 instance capacity full dedicated for the usage.
+- compliance requierements and server bound software licences.
+- the most expensive option
+- useful for software complicated licence model (BYOL).
+
+
+## EC2 Dedicated Instances
+- instances run on a hardware that's dedicated to you.
+- may share hardware with other instances
+- no control over instance placement (can move hardware after stop/start).
+
+## EC2 Capacity Reservations
+- reserve on-demand instances capacity in a specific AZ for any duration.
+- no time commitment (create/cancel anytime), no billings discounts.
+- suitable for short-term, uninterupted workloads that needs to be in a specific AZ.
+
+![Alt text](image-3.png)
+
 
 
 
