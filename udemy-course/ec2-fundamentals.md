@@ -110,7 +110,7 @@
 - 443 = HTTPS (access secured websites)
 - 3389 = RDP (remote desktop protocol).
 
-## EC2 Instances Purchasing Options
+# EC2 Instances Purchasing Options
 - **on-demand instances** - short workload, pricing, pay by second.
 - **reserved** (1 & 3 years)
   - long workloads
@@ -128,6 +128,29 @@
 - has the highest cost but no upfront payment
 - no long-term commitment 
 - recomended for `short-term` and `un-interrupted workloads`, where you can't predict how the application will behave.
+
+## EC2 Reserved Instances
+- up to 72% discount compared to On-demand.
+- you reserve a specific instance attributes (instance type, region, tenancy, OS)
+- `reservation period - 1 year` (+discount) or 3 years (+++ discount).
+- payment options - No Upfront, partial upfront, all upfront.
+- reserveed instance scope - regional or zonal
+- recommended for steady-state usage applications (think database)
+- you can buy and cell in the reserved instance markplace.
+
+### Convertible Reserved Intance
+- can change the EC2 instance type
+- Up to 66% discount.
+
+## EC2 Savings Plans
+- get a discount based on a long term usage (up to 72%)
+- locked beyond a specific instance family & AWS region (M5 in us-east-1)
+- flexible across
+  - instance size
+  - OS (windows & linux)
+  - tenancy (host, dedicated, default)
+
+
 
 
 
