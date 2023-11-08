@@ -110,13 +110,20 @@
 - 443 = HTTPS (access secured websites)
 - 3389 = RDP (remote desktop protocol).
 
-
 ## EC2 Instances Purchasing Options
-- on-demand instances - short workload, pricing, pay by second.
-- reserved (1 & 3 years)
+- **on-demand instances** - short workload, pricing, pay by second.
+- **reserved** (1 & 3 years)
   - long workloads
   - convertible reserved instances - long workloads
-- saving plans - (1 & 3 years) - commin
+- **saving plans** (1 & 3 years) - commitment to an amount of usage, long workload.
+- **spot instances** - short workloads, cheap, can lose instances (less reliable).
+- **dedicated hosts** - book a entire phisycal server, control instance placement.
+- **dedicated instances** - no other customers will share your hardware.
+- **capacity reservations** - reserve capacity in a specific AZ for any duration.
+
+
+
+
 
 
 
