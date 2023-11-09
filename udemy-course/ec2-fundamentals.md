@@ -154,7 +154,8 @@
 ## EC2 Spot Instances
 - discount of 90% compared on-demand.
 - instances that you can lose at any time if your max price is less than current spot price.
-- the MOST cost efficient instances AWS
+- the MOST cost efficient instances AWS.
+- used for batch jobs, data analysis or workloads that are resilient to failures.
 
 ### Useful for workloads that are resilient to failure
 - batch jobs
@@ -181,6 +182,7 @@
 - suitable for short-term, uninterupted workloads that needs to be in a specific AZ.
 
 ![Alt text](image-3.png)
+
 
 
 
