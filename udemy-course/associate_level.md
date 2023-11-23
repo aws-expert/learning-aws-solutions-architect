@@ -9,3 +9,5 @@
 
 - Private IP
   - sss
+  - the IP must be unique across the provate network.
+  - 
