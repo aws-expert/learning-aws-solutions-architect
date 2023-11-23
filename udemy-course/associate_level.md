@@ -9,5 +9,7 @@
 
 - Private IP
   - sss
-  - the IP must be unique across the provate network.
-  - 
+  - the IP must be unique across the private network.
+  - machines connected to WWW using a NAT + internet gateway (a proxy)
+  - only a specific range if IP address can be used as private IP.
+
