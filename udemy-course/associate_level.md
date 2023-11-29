@@ -37,6 +37,15 @@
 - saving the ram state
 - services that take a long time to initialize.
 
+## EC2 Hibernate - Good to know
+- supported instance families - C3, C4, C5, I3, M3, M4, R3, R4, T2, T3
+- instance RAM size - must be less than 150GB
+- instance size - not supported for bare metal instances
+- AMI - Amazon LINUX 2, LINUX AMI, Ubuntu, RHEL, CentOS, Windows
+- root volume - must be EBS encrypted, not instance store and large
+- available for on-demand, reserved and spot instances.
+- an instance can NOT be hibernated more than 60 days.
+
 
 
 
