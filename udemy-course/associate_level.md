@@ -27,4 +27,17 @@
   - one public ipv4 address.
   - one or more security groups.
 
+# EC2 Hibernate
+- introducing the EC2 hybernate
+  - the memmory RAM state is preserved.
+  - the instance boot is faster (the OS is not stopped and restarted).
+
+## Uses Cases
+- long running processing
+- saving the ram state
+- services that take a long time to initialize.
+
+
+
+
 
