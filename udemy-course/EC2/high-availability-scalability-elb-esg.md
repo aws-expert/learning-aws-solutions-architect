@@ -44,3 +44,20 @@
 
 ## What is Load Balancer
 
+![Alt text](image-2.png)
+
+## Why use a Load Balancer?
+- sprepad load across multiple downtream instances.
+- expose a single point of access (DNS) to your application.
+- handle failures of downtream instances.
+- do regular health checks in your instances.
+- provide SSL termination (HTTPS) for your websites.
+- high availability across zones.
+- separarte public traffic from private traffic.
+
+## Why use a Elastic Load Balancer?
+- an elastic load balancer is a managed load balancer.
+  - aws gyarantees that it will be working
+  - aws take care of upgrades, maintenances and high availability.
+
+
