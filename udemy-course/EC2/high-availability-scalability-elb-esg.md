@@ -31,5 +31,16 @@
 
 ## High Availability and Scalability for EC2
 - vertical scaling, inscrease instance size (scale up and dows)
+  - from: t2.nano - 0,5 of RAM, 1 vCPU
+  - to: tb1.metal - 12TB of RAM, 448 vCPU
 - horizontal scaling, increasing the number of instances (scale out scale in).
-- 
+  - Auto Scaling groups.
+  - Load Balance.
+
+- High availability runs instances  for the same application across multi AZ.
+  - Auto scaling groups multi az
+  - load balance multi az.
+
+
+## What is Load Balancer
+
