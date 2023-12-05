@@ -12,5 +12,11 @@
 - is more common is database systems (distributed systems)
 - RDS, ElastiCache, are services that can scale vertically.
 
+![Alt text](image.png)
+
+## Horizontal scaling
+- increasing the number of instances/systems for your application.
+- 
 
 
+![Alt text](image-1.png)
