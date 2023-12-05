@@ -59,5 +59,13 @@
 - an elastic load balancer is a managed load balancer.
   - aws gyarantees that it will be working
   - aws take care of upgrades, maintenances and high availability.
+  - its integrated with many aws services
+    - EC2, EC2 auto scaling groups, amazn ECS
+    - AWS certificate manafer (ACM, Cloud Watch)
+    - Route 53, AWS WAF,  AW Global Accelerator.
+
+## Health Checks
+- are cricual for load balancers.
+- enable the load balancer to know if the instance it forwards traffic to are available to reply to requests.
 
 
