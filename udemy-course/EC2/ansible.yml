@@ -1,0 +1,23 @@
+---
+- name: Install Nginx
+  hosts: your_target_server
+  become: true
+
+  tasks:
+    - name: Update package cache
+      apt:
+        update_cache: yes
+      when: ansible_os_family == 'Debian'  # Adjust for other package managers
+
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: present
+      when: ansible_os_family == 'Debian'  # Adjust for other package managers
+
+    - name: Start Nginx service
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+      when: ansible_os_family == 'Debian'  # Adjust for other init systems

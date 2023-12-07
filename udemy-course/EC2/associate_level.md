@@ -31,6 +31,7 @@
 - introducing the EC2 hybernate
   - the memmory RAM state is preserved.
   - the instance boot is faster (the OS is not stopped and restarted).
+  - ec2 is the default implementation.
 
 ## Uses Cases
 - long running processing
