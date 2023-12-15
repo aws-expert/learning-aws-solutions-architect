@@ -26,3 +26,13 @@ A lista a seguir contém tecnologias e conceitos que podem aparecer no exame. Es
 - AWS Cost Explorer
 - Savings Plans
 
+## Computação:
+- AWS Batch
+- Amazon EC2
+- Amazon EC2 Auto Scaling
+- AWS Elastic Beanstalk
+- AWS Outposts
+- AWS Serverless Application Repository
+- VMware Cloud on AWS
+- AWS Wavelength
+
