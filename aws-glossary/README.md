@@ -10,3 +10,19 @@ A lista a seguir contém tecnologias e conceitos que podem aparecer no exame. Es
 - Amazon Kinesis
 - AWS Lake Formation
 - Amazon Managed Streaming for Apache Kafka (Amazon MSK)
+
+## Integração de aplicações:
+- Amazon AppFlow
+- AWS AppSync
+- Amazon EventBridge
+- Amazon MQ
+- Amazon Simple Notification Service (Amazon SNS)
+- Amazon Simple Queue Service (Amazon SQS)
+- AWS Step Functions
+
+## Gerenciamento de custos da AWS:
+- AWS Budgets
+- AWS relatório de uso e custo
+- AWS Cost Explorer
+- Savings Plans
+
