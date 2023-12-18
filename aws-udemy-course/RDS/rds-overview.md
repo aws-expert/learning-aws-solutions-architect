@@ -22,4 +22,16 @@
   - storage backed by EBS volumes (gp2).
 - but you cannot SSH into the database instances.
 
+## RDS -Storage Auto Scaling
+- helps you increase storage on your RDS DB instance.
+- RDS detects you are running out of free database storage, it scales automatically.
+- maximum storage threshold
+  - automatically modify storage if
+    - free storage is less than 10% of allocated storage.
+    - 6 hours have passed since las modification.
+    - low storage lasts at least 5 minutes.
+
+
+
+
 
